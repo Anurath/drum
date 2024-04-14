@@ -1,0 +1,21 @@
+body{
+    text-align:center;
+}
+.drum{
+    height:70px;
+    width:70px;
+}
+
+footer{
+    height:100px;
+    width:100%;
+    position:absolute;
+    bottom:0px;
+}
+h3{
+    margin: auto;
+}
+
+.drum{
+    font-size:x-large;
+}
