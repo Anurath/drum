@@ -1,9 +1,21 @@
 body{
     text-align:center;
+    background:rgb(3, 16, 49);
+}
+h1{
+    color:white;
 }
 .drum{
-    height:70px;
-    width:70px;
+    height:100px;
+    width:100px;
+    font-size:x-large;
+    border:6px solid rgb(67, 24, 24);
+    border-radius:6%;
+    margin:5px;
+}
+.drum:hover{
+    transform:scale(0.98);
+    opacity:0.9;
 }
 
 footer{
@@ -11,11 +23,34 @@ footer{
     width:100%;
     position:absolute;
     bottom:0px;
-}
-h3{
-    margin: auto;
+    color: white;
 }
 
-.drum{
-    font-size:x-large;
+.k{
+    background-image: url("imgs/crash.png");
+    background-size:cover;
+}
+.l{
+    background-image: url("imgs/kick.png");
+    background-size:cover;
+}
+.j{
+    background-image: url("imgs/snare.png");
+    background-size: cover;
+}
+.w{
+    background-image: url("imgs/tom1.png");
+    background-size: cover;
+}
+.a{
+    background-image: url("imgs/tom2.png");
+    background-size: cover;
+}
+.s{
+    background-image: url("imgs/tom3.png");
+    background-size: cover;
+}
+.d{
+    background-image: url("imgs/tom4.png");
+    background-size: cover;
 }
